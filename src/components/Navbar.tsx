@@ -21,15 +21,7 @@ import FramerWrapper from "./animation/FramerWrapper";
 import { usePathname } from "next/navigation";
 
 const Navbar = () => {
-  // const items = [
-  //   { name: "Home", icon: <Home />, link: "/" },
-  //   { name: "About", icon: <User />, link: "/about" },
-  //   { name: "Skills", icon: <Briefcase />, link: "/skills" },
-  //   { name: "Education", icon: <GraduationCap />, link: "/education" },
-  //   { name: "Projects", icon: <FolderGit2 />, link: "/projects" },
-  //   { name: "Contact", icon: <Mail />, link: "/contact" },
-  //   { name: "More", icon: <MoreHorizontal />, link: "/more" },
-  // ]
+
   const data = [
     {
       title: 'Home',
@@ -135,7 +127,7 @@ const Navbar = () => {
           className={cn("aspect-square rounded-full bg-gray-200 dark:bg-neutral-800",pathname === item.href && " bg-gray-100 border border-primary}")}
           >
           <DockLabel >{item.title}</DockLabel>
-          <DockIcon className={cn(pathname === item.href && "text-[#2f7df4]")}>{item.icon}</DockIcon>
+          <DockIcon className={cn(pathname === item.href && "text-[#78dd7f]")}>{item.icon}</DockIcon>
         </DockItem>
           </Link>
       ))}

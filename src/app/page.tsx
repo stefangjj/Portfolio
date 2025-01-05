@@ -8,16 +8,14 @@ import DownLoadResumeBtn from "@/components/DownLoadResumeBtn";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 
 export const siteConfig = {
-  name: "Md Taqui Imam",
-  description: "I am a Passionate Software Developer",
-  ogImage: "https://mdTaquiImam.vercel.app/og-image.png",
-  url: "https://mdTaquiImam.vercel.app",
+  name: "Stefan Gjorgjevski",
+  description: "I am a Passionate Frontend Developer",
 }
 export default function Home() {
   return (
    <>
       {/* LEFT SIDE  */}
-      <FramerWrapper className=" h-full w-auto flex flex-col justify-start gap-4" y={0} x={-100}>
+      <FramerWrapper className="w-full h-full w-auto flex flex-col justify-start gap-4" y={0} x={-100}>
         <HeroTexts />
         <div className="h-fit w-full p-4 flex gap-3">
           <SocialLinks />

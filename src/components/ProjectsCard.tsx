@@ -18,7 +18,7 @@ interface projectcardprops {
 const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
   return (
   <FramerWrapper className={"max-w-[32%] min-h-[345px] max-lg:max-w-full"} y={0} scale={0.8} delay={num/4} duration={0.15}>
-    <Card className="w-full h-full">
+    <Card className="w-full h-full flex flex-col justify-evenly">
       <CardHeader>
         <CardTitle>{value.title}</CardTitle>
        
@@ -33,16 +33,12 @@ const ProjectCards: React.FC<projectcardprops> = ({ value, num }) => {
           })
         }
         </div>
+        <button className="bg-[#06760d] hover:[bg-[#108718]] text-white font-bold mt-5 py-2 px-4 rounded">
+          <a href={value.link}>
+            Project
+          </a>
+        </button>
       </CardContent>
-      <CardFooter className="items-center justify-center flex">
-        <Link
-          href={value.link}
-          target="blank"
-          className={cn(buttonVariants({ variant: "default", size: "lg" }),"flex")}
-        >
-          Visit Project <ArrowUpRight className="h-5 w-5 ml-1" />
-        </Link>
-      </CardFooter>
     </Card>
     </FramerWrapper>
   );

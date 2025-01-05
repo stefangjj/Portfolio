@@ -1,4 +1,4 @@
-import ContactForm from "@/components/ContactForm";
+import ContactForm from "@/components/Contact";
 import FramerWrapper from "@/components/animation/FramerWrapper";
 import Heading from "@/components/Heading";
 import { Badge } from "@/components/ui/badge";
@@ -17,7 +17,7 @@ const contactPage = () => {
       <div className="flex flex-col gap-3 w-full">
         <Heading>Contact Me!</Heading>
         <div className="h-auto w-full flex justify-center items-center">
-          <FramerWrapper y={0} scale={0.8}>
+          <FramerWrapper className="w-full flex justify-center items-center" y={0} scale={0.8}>
 
         <ContactForm/>
           </FramerWrapper>

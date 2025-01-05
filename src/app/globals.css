@@ -82,7 +82,8 @@
   display: block;
   width: 6rem;
   height: .6rem;
-  background-color: #2f7df4;
+  background-color: #06760d;
+  margin-top: 18px;
 }
 .icon_underline::after{
   content: "";
@@ -90,9 +91,10 @@
     top: 100%;
     display: block;
     width: 2rem;
-    height: .3rem;
-    background-color: #2f7df4;
+    height: .2rem;
+    background-color: #78dd7f;
     margin-bottom: 2rem;
+    margin-top: 8px;
 }
 .education_point::before{
   content: "";
@@ -103,7 +105,7 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #2f7df4;
+    background-color: #78dd7f;
     outline: 3px solid var(--primary);
     box-shadow: 0 2px 5px 2px #2f7df4;
 }

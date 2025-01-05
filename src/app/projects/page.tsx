@@ -8,78 +8,58 @@ const projectsPage = () => {
   // PROJECTS DATA
   const Projects = [
     {
-      title: "Devzone - A community chat app for devs",
+      title: "SMZH",
       description:
-        `DevZone is the ultimate chat platform for developers
-to connect, collaborate, and code together. Join the conversation and level up your coding journey.`,
-      tags: ["Zustand", "Supabase", "Shadcn Ui", "Nextjs"],
-      link: "https://devzone-ti.vercel.app/",
+        `Official website for SMZH Company`,
+      tags: ["NextJs", "Strapi", "CSS", "Tailwind"],
+      link:'https://www.smzh.ch/de',
+      status:'Published ✅'
+    },
+    {
+      title: "Streetstylex - E-commerce website for buying or selling used/new clothes",
+      description:
+        `Streetstylex is an ecommerce website where customers can buy used products graded from A to F for
+        their quality and condition.`,
+      tags: ["React", "Mongodb", "CSS", "Node.js"],
+      link:'https://github.com/Streetstylex/streetstylex',
+      status:'In Progress 🟡'
     },
    
     {
-      title: "itZmyLink- One Page many Links",
+      title: "Petx",
       description:
-        "itZmyLink is a simple platform where user can create a personalized page to showcase all your social media profiles in one place. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/itZmyLink",
+        `Website for buying/selling and offering services related to animals/pets. Breeds can sell verified
+        animal species, pet shops can sell their products and vets can offer their services. `,
+      tags: ["React", "Javascript", "CSS", "Mongodb"],
+      link:'https://github.com/stefangjj/petX',
+      status:'Done ✅'
     },
     {
-      title: "GitEstimate- Github estimate worth generator",
+      title: "BoKompani",
       description:
-        "GitEstimate is a simple fun tool where user can generate their github estimate worth card just by entering their github username. ",
-      tags: ["Nextjs", "Typescript", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/GitEstimate",
+        "Static responsive website for a welder company.",
+      tags: ["React", "CSS", "Javascript"],
+      link:'https://bokompani.netlify.app/',
+      status:'Published ✅'
     },
     {
-      title: "Mixcn-ui- Reusable components for Nextjs",
+      title: "Weather Moods",
       description:
-        "This is Nextjs app with a Collection of Nextjs Components - (Currently under Devlelopment) ",
-      tags: ["Nextjs", "Shadcnui", "Npx","Library"],
-      link: "https://mixcn-ui.vercel.app",
+        "Three js project where 3D objects are imported and user can change weathers and animations are applied based on the weather(rain, sun, clouds).",
+      tags: ["Three.js", "Javascript", "HTML5"],
+      link:'https://github.com/stefangjj/weather-moods',
+      status:'Done ✅'
     },
     {
-      title: "Rupeespot- All deals Product in one place",
+      title: "Acko KV Transport",
       description:
-        "This is a free tool to check price history charts for millions of products for popular Indian stores such as Amazon and Flipkart. ",
-      tags: ["Nextjs", "Freelancing", "MySQL"],
-      link: "https://rupeespot.com/",
-    },
+        "Website for transport company where people can book their trips from the given events.",
+      tags: ["React", "Mongodb", "Node.js","CSS"],
+      link:'https://github.com/stefangjj/KV-Transport',
+      status:'In Progress 🟡'
+    }
     
-    {
-      title: "KryptoKapital- Investing in Cryptocurreny",
-      description:
-        "This is a platform for learning about cryptocurrency with many tools and festures. It is very big project. ",
-      tags: ["Nextjs", "Freelancing", "Supabase"],
-      link: "https://pro.kryptokapital.info/",
-    },
-    {
-      title: "FriendZ - A social media Platform",
-      description:
-        "FriendZ is a social media app made with modern tech stacks such as redis, Authjs etc. A user can Create, delete, like, comment Post. ",
-      tags: ["Redis", "Authjs", "Typescript", "Nextjs"],
-      link: "https://github.com/taqui-786/project-friendz",
-    },
-    {
-      title: "ChatApp- Simple instagram clone",
-      description:
-        "ChatApp is similar to instagram, you can create, edit, delete, like,comment, post and  Follow, unfollow users",
-      tags: ["Reactjs", "Javascript"],
-      link: "https://github.com/taqui-786/chatapp-api",
-    },
-    {
-      title: "Devletter - A Newsletter for devs",
-      description:
-        "Devletter ia a newsletter subscribing single page app made with Nextjs and Tailwindcss.",
-      tags: ["Nextjs", "Tailwindcss"],
-      link: "https://github.com/taqui-786/Devletter",
-    },
-    {
-      title: "CrouMaker - A Crousal Maker App",
-      description:
-        "Crousal Maker is a tool with in-built crousals templates edit and download it in any format.",
-      tags: ["Nextjs", "jsPDF", "html2canvas", "Shadcn Ui"],
-      link: "https://github.com/taqui-786/crousal-maker",
-    },
+
   ];
 
   return (

@@ -17,7 +17,7 @@ export default function Home() {
       {/* LEFT SIDE  */}
       <FramerWrapper className="w-full h-full w-auto flex flex-col justify-start gap-4" y={0} x={-100}>
         <HeroTexts />
-        <div className="h-fit w-full p-4 flex gap-3">
+        <div className="h-fit w-full p-4 flex gap-4">
           <SocialLinks />
         </div>
        <DownLoadResumeBtn/>
